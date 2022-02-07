@@ -1,0 +1,350 @@
+@charset "UTF-8"; 
+
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding-left:30px;
+    background: #ffF;
+    position: fixed;
+    top:  0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.logo img{
+    width: 230px;
+}
+
+.menu a{
+    display: block;
+    font-size: 13px;
+    line-height: 70px;
+    width: 230px;
+    height: 70px;
+    padding: 0 30px;
+    text-align: center;
+    color: #fff;
+    background: #303030;
+}
+/* Instagram */
+.front-ig{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+}
+
+.front-ig img{
+    width: 50px;
+    height: 50px;
+}
+
+/* fv */
+.front-fv{
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+}
+
+.front-fv__img{
+    width: 65%;
+}
+
+.front-fv__img img{
+    width: 100%;
+}
+
+.front-fv__desc{
+    width: 35%;
+    text-align: center;
+    color: #fff;
+    background: #00ABAE;
+    position: relative;
+}
+
+.front-fv__desc-detail{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+}
+
+.front-fv__subtitle{
+    font-size: calc(100vw / 40);
+}
+
+.front-fv__maintitle{
+    font-size: calc(100vw / 25);
+    margin: 15px 0;
+    line-height: 1.3;
+}
+
+.front-fv__time{
+    font-size: calc(100vw / 55);
+    margin: 15px 0;
+    font-weight: bold;
+    display: block;
+}
+
+.front-fv__text{
+    font-size: calc(100vw / 100);
+    display: block;
+}
+
+/* common */
+.common-wrapper{
+    margin: 100px 0;
+}
+
+.common-inner{
+    max-width: 800px;
+    margin: auto;
+}
+
+.common-title{
+    margin: 50px 0;
+}
+
+.common-subtitle{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: #00ABAE;
+}
+
+.common-maintitle{
+    text-align: center;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.common-btn{
+    margin: 50px 0;
+}
+
+.common-btn a{
+    display: block;
+    font-size: 13px;
+    width: fit-content;
+    padding: 15px 30px;
+    margin: auto;
+    color: #fff;
+    background: #303030;
+}
+
+/* about */
+.front-about__desc{
+    display: flex;
+}
+
+.front-about__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.front-about__title{
+    font-size: 35px;
+    line-height: 1.3;
+}
+
+.front-about__img{
+    width: 40%;
+    margin-left: 30px;
+}
+
+.front-about__img img{width: 100%;}
+
+/* facility */
+.front-facility__icon{
+    display: flex;
+    justify-content: center;
+}
+.icon{margin: 0 15px;}
+.icon img{width: 100%;}
+.front-facility__space{
+    margin: 30px 0;
+    padding: 30px 0;
+    text-align: center;
+    background: rgba(0, 171, 174, 0.1);
+}
+
+/* feature */
+.front-feature__list{
+    display: flex;
+    justify-content: center;
+}
+
+.front-feature__list + p{
+    font-size: 10px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.front-feature__item{
+    margin: 0 15px;
+    width: 33.3333%;
+}
+
+.front-feature__item img{
+    width: 100%;
+}
+
+.front-feature__item h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.front-feature__item p{
+    font-size: 13px;
+}
+
+/* flow */
+.front-flow__list{display: flex;}
+.front-flow__list li:first-child{margin-right: 30px;}
+.front-flow__list li:last-child{margin-left: 30px;}
+.front-flow__item h4{
+    font-size: 20px;
+    margin: 30px 0;
+    text-align: center;
+}
+.front-flow__item p{
+    font-size: 13px;
+}
+
+/* price */
+.front-price{
+    padding: 30px 0;
+    background: rgba(0, 171, 174, 0.1);
+}
+.front-price__table{
+    margin-top: 70px;
+    width: 100%;
+}
+.front-price__table th{
+    width: 50%;
+    padding: 15px 30px;
+    font-size: 13px;
+    color: #fff;
+    border: solid 0.5px;
+    border-color: #dee2e6;
+    background: #303030;
+}
+.front-price__table td{
+    width: 50%;
+    padding: 15px 0;
+    padding-left: 15px;
+    font-size: 13px;
+    border: solid 0.5px;
+    border-color: #dee2e6;
+}
+.front-price__desc{margin-top: 10px;}
+.front-price__desc p{font-size: 10px;}
+
+
+/* map */
+.front-map p{
+    margin: 50px 0;
+    text-align: center;
+}
+.front-map img{width: 100%;}
+
+/* footer */
+.footer{
+    height: 400px;
+    background-image: url(../img/footer.png);
+    background-size: cover;
+}
+
+.footer p{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* mobile */
+@media screen and (max-width: 800px) {
+    .header{
+        justify-content: center;
+        padding: 0 15px;
+    }
+    .logo img{width: 100%;}
+    .menu{
+        display: none;
+    }
+    .front-fv__img,
+    .front-fv__desc{width: 50%;}
+    .front-fv__maintitle{font-size: calc(100vw / 18);}
+    .front-fv__subtitle{font-size: calc(100vw / 30);}
+    .front-fv__time{font-size: calc(100vw / 35);}
+    
+
+    /* common */
+    .common-wrapper{
+        margin: 50px 0;
+    }
+    .common-inner{
+        margin: 0 15px;
+    }
+    .common-maintitle{font-size: 20px;}
+    /* about */
+    .front-about__title{font-size: calc(100vw / 20);}
+    .front-about__title + p{margin: 50px 0;}
+    .front-about__text{width: 100%;}
+    .front-about__img{display: none;}
+
+    /* facility */
+    .icon{margin: 0 10px;}
+    .front-facility__space img{width: 100%;}
+    /* feature */
+    .front-feature__list{
+        display: block;
+    }
+    .front-feature__item{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    /* flow */
+    .front-flow__list{
+        display: block;
+    }
+    .front-flow__list li:first-child{margin-right: 0;}
+    .front-flow__list li:last-child{margin-left: 0;}
+    .front-flow__item{margin-bottom: 50px;}
+
+    /* price */
+    .front-price__table{
+        width: 100%;
+        border-collapse: collapse;}
+    .front-price__table th,
+    .front-price__table td{
+        display: table;
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .front-price__table th{
+        height: 45px;
+        line-height: 45px;
+    }
+    .front-price__table br{
+        display: none;
+    }
+    
+    /* footer */
+    .footer{
+        background-position: right;
+    }
+}
