@@ -11,29 +11,29 @@
     <body>
     <header class="header">
         <div class="logo">
-            <h1><img src="img/logo.png" alt="ロゴ画像"></h1>
+            <h1><img src="img/logo.png" alt=""></h1>
         </div>
         <ul class="menu">
-            <li class="menu-item"><a href="https://forms.gle/dKHLvPUtbcNNEAfR6">見学・申し込みはこちらから</a></li>
+            <li class="menu-item"><a href="#">見学・申し込みはこちらから</a></li>
         </ul>
     </header>
 
     <main>
-            <div class="front-ig">
-            <a href="https://www.instagram.com/tech.i.s.coworking/"><img src="img/logo_ig.png" alt="Instagram_ロゴ画像"></a>
+            <div class="front">
+            <a href="#"><img src="img/logo_ig.png" alt=""></a>
         </div>
 
-        <section class="front-fv">
-            <picture class="front-fv__img">
-                <source srcset="img/mobile-fv.png" alt="トップ画像" media="(max-width: 800px)">
+        <section class="mainvisual">
+            <picture class="mainvisual__img">
+                <source srcset="img/mobile-fv.png" alt="" media="(max-width: 800px)">
                 <img src="img/fv.png" alt="トップ画像">
             </picture>
-            <div class="front-fv__desc">
-                <div class="front-fv__desc-detail">
-                    <span class="front-fv__subtitle">松山市駅から徒歩5分</span>
-                    <h2 class="front-fv__maintitle">誰でも使える<br>コワーキング</h2>
-                    <time  class="front-fv__time">10:00~22:00</time>
-                    <small class="front-fv__text">当日のみの利用も月額利用もできます。</small>
+            <div class="mainvisual__cf">
+                <div class="mainvisual__cf-detail">
+                    <span class="mainvisual__subtitle">松山市駅から徒歩5分</span>
+                    <h2 class="mainvisual__maintitle">誰でも使える<br>コワーキング</h2>
+                    <time  class="mainvisual__time">10:00~22:00</time>
+                    <small class="mainvisual__text">当日のみの利用も月額利用もできます。</small>
                 </div>
             </div>
         </section>
@@ -49,7 +49,7 @@
                         <p>あなたも愛媛の中心地でイノベーションを起こしませんか？</p>
                     </div>
                     <div class="front-about__img">
-                        <img src="img/about.png" alt="1階スペース">
+                        <img src="img/about.png" alt="">
                     </div>
                 </div>
             </div>
@@ -62,17 +62,17 @@
                     <h3 class="common-maintitle">テックアイエスコワーキング 愛媛県</h3>
                 </div>
                 <ul class="front-facility__icon">
-                    <li class="icon"><img src="img/online.png" alt="オンライン"></li>
-                    <li class="icon"><img src="img/drink.png" alt="ドリンク"></li>
-                    <li class="icon"><img src="img/print.png" alt="プリント"></li>
-                    <li class="icon"><img src="img/room.png" alt="会議室"></li>
-                    <li class="icon"><img src="img/charge.png" alt="電源あり"></li>
-                    <li class="icon"><img src="img/wifi.png" alt="wifi"></li>
-                    <li class="icon"><img src="img/event.png" alt="イベントスペース"></li>
+                    <li class="icon"><img src="img/online.png" alt=""></li>
+                    <li class="icon"><img src="img/drink.png" alt=""></li>
+                    <li class="icon"><img src="img/print.png" alt=""></li>
+                    <li class="icon"><img src="img/room.png" alt=""></li>
+                    <li class="icon"><img src="img/charge.png" alt=""></li>
+                    <li class="icon"><img src="img/wifi.png" alt=""></li>
+                    <li class="icon"><img src="img/event.png" alt=""></li>
                 </ul>
             </div>
             <div class="front-facility__space">
-                <img src="img/space.png" alt="コワーキング見取り図">
+                <img src="img/space.png" alt="">
             </div>
         </section>
 
@@ -84,24 +84,24 @@
                 </div>
                 <ul class="front-feature__list">
                     <li class="front-feature__item">
-                        <img src="img/open.png" alt="オープンスペース1F">
+                        <img src="img/open.png" alt="">
                         <h4>オープンスペース1F</h4>
                         <p>来客の方や利用者の方とリラックスして打ち合わせすることができるスペースです。</p>
                     </li>
                     <li class="front-feature__item">
-                        <img src="img/open2.png" alt="自主スペース2F">
+                        <img src="img/open2.png" alt="">
                         <h4>自主スペース1F/2F</h4>
                         <p>フリードリンク（アイス/ホット）でコーヒーを飲みながら、集中して作業することができるスペースです。</p>
                     </li>
                     <li class="front-feature__item">
-                        <img src="img/door.png" alt="オンラインルーム2F">
+                        <img src="img/door.png" alt="">
                         <h4>オンラインルーム2F</h4>
                         <p>誰にも見られない空間で、集中してテレワークすることができるスペースです。</p>
                     </li>
                 </ul>
                 <p>※会議室、イベントスペースの時間貸しもありますので、お問合せ下さい。</p>
                 <div class="common-btn">
-                    <a href="https://forms.gle/dKHLvPUtbcNNEAfR6">見学申し込みはこちら</a>
+                    <a href="#">見学申し込みはこちら</a>
                 </div>
             </div>
         </section>
@@ -173,7 +173,7 @@
                 </table>
 
                 <div class="common-btn">
-                    <a href="https://forms.gle/dKHLvPUtbcNNEAfR6">見学申し込みはこちら</a>
+                    <a href="#">見学申し込みはこちら</a>
                 </div>
             </div>
         </section>
@@ -185,14 +185,14 @@
                     <h3 class="common-maintitle">住所</h3>
                 </div>
                 <p>〒790-0012　愛媛県松山市湊町4丁目6番地12 池田ビル1階2階</p>
-                <img src="img/map.jpg" alt="マップ画像">
+                <img src="img/map.jpg" alt="">
             </div>
         </section>
 
     </main>
 
     <footer class="footer">
-        <p>COPYRIGHT©︎techis All rights reserved.</p>
+        <p>&copy; techis All rights reserved.</p>
     </footer>
 </body>
 </html>
